@@ -1,0 +1,763 @@
+{
+    "Pocket Kuma": {
+        "description": "Let's get this straight: the Pocket Kuma is the result of what happens when high elves play mad scientist with the animal kingdom. Imagine taking a bear, making it pocket-sized, and then adding a sprinkle of fairy dust just for giggles. The High Elf King Finian, in a moment of unparalleled wisdom, decided these intelligent, magic-infused fluff balls were too much of a threat to his ego and ordered a mass extermination. A few crafty survivors played hide-and-seek in the jungle, and now we're blessed with these bug-eyed, adorable abominations. Fighting? Forget about it. Walking? Barely. But if there was a competition for being so cute it's almost criminal, Pocket Kumas would be the reigning champions. Just don't squeeze them too hard; they're not stress balls, no matter how squishy they look.",
+        "buffs": { "charisma": 2 },
+        "abilities": [
+            {
+                "name": "Berserk Rage",
+                "description": "Enter a state of increased physical prowess.",
+                "effect": "Gain +2 to Strength and Stamina for 3 turns.",
+                "abilityPointCost": 3,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Healing Factor",
+                "description": "Accelerate natural healing.",
+                "effect": "Regenerate 5 HP per turn for 3 turns.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "Saccathian": {
+        "description": "Ah, the Saccathians, or 'Sacs' if you're into the whole brevity thing. Picture a squid, scale it up to human size, and slap on a dash of Lovecraftian nightmare fuel, and you've got yourself a Saccathian. These cephalopod-faced wonders are like the odd cousins of the oceanic world that decided legs were overrated and tentacles were in. They're the life of the party in any cosmic horror-themed gathering, and their ability to make anyone uncomfortable is unmatched. If you've ever wanted to hug a creature that could potentially strangle you with affection, the Saccathian is your go-to race.",
+        "buffs": { "intelligence": 2 },
+        "abilities": [
+            {
+                "name": "Stealth Mastery",
+                "description": "Become nearly invisible in shadows.",
+                "effect": "Gain advantage on Stealth checks for 3 turns.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Precision Strike",
+                "description": "Deliver a precise attack.",
+                "effect": "Deal double damage on next attack.",
+                "abilityPointCost": 3,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "Rat Hooligan": {
+        "description": "The Rat Hooligans, or Rat-kin, are essentially what you'd get if rats decided to stand up, demand rights, and start wearing clothes. At a towering five feet tall, these furry anarchists are the embodiment of street smarts mixed with a dash of petty theft. If you've ever wanted to play a character that can scurry through dungeons, talk trash, and look surprisingly dapper in a tiny leather jacket, the Rat Hooligan is calling your name. Just keep an eye on your belongings; these guys have sticky fingers.",
+        "buffs": { "dexterity": 2 },
+        "abilities": [
+            {
+                "name": "Quick Escape",
+                "description": "Instantly disengage from combat.",
+                "effect": "Move up to 30 feet away without provoking attacks of opportunity.",
+                "abilityPointCost": 1,
+                "cooldown": "1 turn"
+            },
+            {
+                "name": "Sneak Attack",
+                "description": "Deal extra damage when attacking from stealth.",
+                "effect": "Add 2d6 damage to next attack from stealth.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "Nullian": {
+        "description": "The Nullians, affectionately known as Nulls, are your classic Roswell aliens with a twist of cosmic discrimination. These little green men have been given the cold shoulder by just about every spacefaring council out there. It's not easy being green, especially when entire systems slam the no-entry sign in your face. But hey, what they lack in popularity, they make up for in mysterious Area 51 vibes and a knack for crashing in the most inconvenient places. If you're into playing the intergalactic underdog with a penchant for probing the unknown, the Nullian is your alien.",
+        "buffs": { "intelligence": 2 },
+        "abilities": [
+            {
+                "name": "Arcane Knowledge",
+                "description": "Gain insight into magical phenomena.",
+                "effect": "Gain advantage on Lore checks related to magic.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Spell Resistance",
+                "description": "Temporarily resist spells.",
+                "effect": "Gain advantage on saving throws against spells for 3 turns.",
+                "abilityPointCost": 3,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "Caprid": {
+        "description": "Caprids are what happens when the universe decides goats need to be in space. These goat-like aliens probably have the best headbutt in the galaxy and an affinity for chewing on things they definitely shouldn't. If you've ever fantasized about being able to eat a tin can as a party trick, congratulations, the Caprid race is your dream come true. Just try to keep them away from the ship's wiring; it's not part of a balanced diet.",
+        "buffs": { "strength": 2 },
+        "abilities": [
+            {
+                "name": "Charge",
+                "description": "Rush towards an enemy with great force.",
+                "effect": "Move up to 30 feet and make a melee attack with +2 to hit and +2 damage.",
+                "abilityPointCost": 2,
+                "cooldown": "1 turn"
+            },
+            {
+                "name": "Sturdy Defense",
+                "description": "Fortify your defenses.",
+                "effect": "Gain +2 to AC for 3 turns.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "Naga": {
+        "description": "The Naga, with their cobra-headed elegance, are the slithery sovereigns of the stars, once ruling over Dungeon Crawler World with a cold-blooded grip. Governed by the illustrious Blood Sultanate, these serpentine strategists were as feared in politics as they were in battle, until crawler Drakea handed them a financial L so large, they're probably still trying to uncoil themselves from bankruptcy. If you're into playing a race that's part history lesson in fiscal irresponsibility and part 'why is my boss a snake?', the Naga offers a unique blend of venomous charm and monetary cautionary tales.",
+        "buffs": { "dexterity": 2 },
+        "abilities": [
+            {
+                "name": "Venomous Bite",
+                "description": "Deliver a poisonous bite.",
+                "effect": "Deal 1d6 poison damage and poison the target for 2 turns.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Stealthy Movement",
+                "description": "Move silently and unseen.",
+                "effect": "Gain advantage on Stealth checks for 3 turns.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "Forsoothed": {
+        "description": "Meet the Forsoothed, or Soothers if you're not into the whole formality thing. These humanoids look like they walked straight out of a sci-fi casting call: bald, white, sporting a ridged mohawk crest that would make any punk rocker jealous, and eyes big enough to see their own awkwardness. With three fingers, they’re basically what aliens would look like if they were trying too hard to count to five. Earth fiction's favorite, but still, no Oscar nominations for them.",
+        "buffs": { "charisma": 2 },
+        "abilities": [
+            {
+                "name": "Silver Tongue",
+                "description": "Persuade others with ease.",
+                "effect": "Gain advantage on Persuasion checks for 3 turns.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Deceptive Charm",
+                "description": "Manipulate others.",
+                "effect": "Target must make a Stamina check or be charmed for 2 turns.",
+                "abilityPointCost": 3,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "Skyfowl": {
+        "description": "The Skyfowl are exactly what you get when an eagle gets too frisky with a humanoid: a race of eagle-headed beings with a superiority complex. Proud and irritable, these feathered folks are part of a legendary side quest that will make you question if ‘bird-brained’ is actually a compliment. Just don't expect them to laugh at your chicken cross-the-road jokes.",
+        "buffs": { "perception": 2 },
+        "abilities": [
+            {
+                "name": "Aerial View",
+                "description": "Gain a bird's eye view of the battlefield.",
+                "effect": "Gain advantage on Perception checks for 3 turns.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Precision Shot",
+                "description": "Make a precise ranged attack.",
+                "effect": "Deal double damage on next ranged attack.",
+                "abilityPointCost": 3,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "Bugbear": {
+        "description": "Bugbears are the mystery meat of the fantasy world. No one knows what they look like, but everyone's familiar with bugbear paste – the go-to condiment for explosive sandwiches. They’ve got a metal named after them and drove one priestly fellow bonkers, which honestly is the kind of PR you can't buy.",
+        "buffs": { "stamina": 2 },
+        "abilities": [
+            {
+                "name": "Intimidating Roar",
+                "description": "Frighten nearby enemies.",
+                "effect": "Enemies within 10 feet must make a Stamina check or be frightened for 2 turns.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Mighty Swing",
+                "description": "Deliver a powerful melee attack.",
+                "effect": "Deal double damage on next melee attack.",
+                "abilityPointCost": 3,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "Incubus": {
+        "description": "Ah, the Incubus. Also known as the Gigachad of the Over City, these dusky gray-skinned, horned hunks with forked tails and bat-like wings are the bad boys of the demon world. They’ll sweep you off your feet, show you a night on the town, and leave you with nothing but a hangover and a set of stunningly sensuous footprints. Low alcohol tolerance, but who's counting drinks when you're that good-looking?",
+        "buffs": { "charisma": 2 },
+        "abilities": [
+            {
+                "name": "Seductive Gaze",
+                "description": "Charm an enemy with a glance.",
+                "effect": "Target must make a Stamina check or be charmed for 2 turns.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Life Drain",
+                "description": "Drain life force from an enemy.",
+                "effect": "Deal 1d6 necrotic damage and heal for the same amount.",
+                "abilityPointCost": 3,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "Changeling": {
+        "description": "Changelings are the ultimate plus-ones, able to morph into any species they’ve touched. Need a date that can also double as your pet? They've got you covered. Just make sure you don’t lose track of who—or what—you brought to the party.",
+        "buffs": { "dexterity": 2 },
+        "abilities": [
+            {
+                "name": "Shapeshift",
+                "description": "Change appearance to blend in.",
+                "effect": "Gain advantage on Disguise checks for 3 turns.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Mimic Voice",
+                "description": "Imitate the voice of another.",
+                "effect": "Gain advantage on Deception checks for 3 turns.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "Porsuk": {
+        "description": "Porsuks are your friendly neighborhood badger-heads, and they’ve got the monopoly on bartending at the Desperado Club. If you want a drink with a side of 'don't mess with me,' a Porsuk's your guy. Just tip well, or you might find your beer a little... gritty.",
+        "buffs": { "stamina": 2 },
+        "abilities": [
+            {
+                "name": "Street Smarts",
+                "description": "Navigate urban environments with ease.",
+                "effect": "Gain advantage on Streetwise checks for 3 turns.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Survivor's Instinct",
+                "description": "Endure harsh conditions.",
+                "effect": "Gain advantage on Survival checks for 3 turns.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "Orc": {
+        "description": "Orcs, the pig-like mainstay of fantasy races. They're like the neighbors you only invite to barbecues out of obligation. Common as dirt, but surprisingly good at turning a spit.",
+        "buffs": { "strength": 2 },
+        "abilities": [
+            {
+                "name": "Battle Fury",
+                "description": "Enter a state of rage.",
+                "effect": "Gain +2 to Strength and Stamina for 3 turns.",
+                "abilityPointCost": 3,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "War Cry",
+                "description": "Intimidate enemies with a shout.",
+                "effect": "Enemies within 10 feet must make a Stamina check or be frightened for 2 turns.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "Zebani": {
+        "description": "The Zebani are the blue-tinged humans of the cosmos. Not feeling blue? Spend a day with them. They’re like walking, talking mood rings, only less 70s and more interstellar chic.",
+        "buffs": { "strength": 2 },
+        "abilities": [
+            {
+                "name": "Infernal Strike",
+                "description": "Deliver a powerful, fiery attack.",
+                "effect": "Deal 1d6 fire damage on next melee attack.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Demonic Resilience",
+                "description": "Resist physical damage.",
+                "effect": "Gain resistance to physical damage for 3 turns.",
+                "abilityPointCost": 3,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "Doppelgänger": {
+        "description": "Doppelgängers are the Swiss Army knives of shape-shifters. Need to look like someone else? They've got you. But beware: shifting mass to mimic others doesn't come with an instruction manual. Sometimes you’re the spitting image, and sometimes you’re just spitting images.",
+        "buffs": { "intelligence": 2 },
+        "abilities": [
+            {
+                "name": "Shapeshift",
+                "description": "Assume the appearance of another.",
+                "effect": "Gain advantage on Disguise checks for 3 turns.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Espionage",
+                "description": "Gather information discreetly.",
+                "effect": "Gain advantage on Stealth checks for 3 turns.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "Gondii": {
+        "description": "Gondii, the parasitic worms of the Valtay, are the ultimate body-snatchers. They'll take over your body faster than you can say 'not it!' and the worst part? They don't even pay rent. If you like your hosts like you like your coffee—completely taken over—then Gondii's the race for you.",
+        "buffs": { "charisma": 2 },
+        "abilities": [
+            {
+                "name": "Persuasive Charm",
+                "description": "Convince others with ease.",
+                "effect": "Gain advantage on Persuasion checks for 3 turns.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Manipulative Tactics",
+                "description": "Influence others subtly.",
+                "effect": "Gain advantage on Manipulation checks for 3 turns.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "Tigran": {
+        "description": "Picture a humanoid, now add stripes, fur, and feline grace, and boom: you've got the Tigran. These orange, furry, tiger-like beings are for those who like their RPG characters with a side of whiskers and a penchant for naps in the sun.",
+        "buffs": { "strength": 2 },
+        "abilities": [
+            {
+                "name": "Predatory Strike",
+                "description": "Unleash a powerful attack.",
+                "effect": "Gain +2 to Strength and deal 2d6 slashing damage on the next attack.",
+                "abilityPointCost": 3,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Camouflage",
+                "description": "Blend into your surroundings.",
+                "effect": "Gain advantage on Stealth checks for 3 turns.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "Fairy": {
+        "description": "Fairies: not just the tiny winged beings of lore, but creatures whose magic is literally on their back. Think twice before using those orcish metal ball bearings; it's like kryptonite with wings.",
+        "buffs": { "dexterity": 2 },
+        "abilities": [
+            {
+                "name": "Magical Flight",
+                "description": "Fly swiftly and avoid attacks.",
+                "effect": "Gain advantage on Dodge checks for 3 turns.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Illusionary Magic",
+                "description": "Create deceptive illusions.",
+                "effect": "Gain advantage on Stealth checks for 3 turns.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "Kuhli": {
+        "description": "Imagine a gecko but with more personality and ambition. The Kuhli, spotted and cunning, are masters of 'stick and move.' Their ability to blend into any party without drawing attention is unparalleled, making them the ultimate plus-ones. If you've ever aspired to be that person who leaves a conversation by simply vanishing, Kuhli's your race of choice.",
+        "buffs": { "charisma": 2 },
+        "abilities": [
+            {
+                "name": "Charming Aura",
+                "description": "Influence those around you.",
+                "effect": "Gain advantage on Persuasion checks for 3 turns.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Manipulative Gaze",
+                "description": "Control others with a look.",
+                "effect": "Target must make a Stamina check or be charmed for 2 turns.",
+                "abilityPointCost": 3,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "Cretin": {
+        "description": "Not your average bouncer, the Cretin are rock elementals with a side gig in security at The Desperado Club. Imagine telling someone you're a mercenary for Ken, and your resume includes 'gatekeeper of the Feral Gods.' It's like saying you've worked both the VIP and the apocalypse. Rock solid on loyalty and literally hard-headed, choosing Cretin means never having to say you're sorry, mainly because you're a rock.",
+        "buffs": { "stamina": 2 },
+        "abilities": [
+            {
+                "name": "Resilient Hide",
+                "description": "Reduce incoming damage.",
+                "effect": "Gain resistance to physical damage for 3 turns.",
+                "abilityPointCost": 3,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Brutal Strike",
+                "description": "Deliver a devastating blow.",
+                "effect": "Deal double damage on next melee attack.",
+                "abilityPointCost": 3,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "Infiltrator": {
+        "description": "The ultimate eavesdroppers. These aquatic brain parasites take 'getting under your skin' to a whole new level. Fancy locking someone out of their own body? Infiltrators are your go-to. But remember, every host party must come to an end, preferably before an anti-parasitic crashes it. If revenge is a dish best served cold, Infiltrators are the chefs in the frosty kitchen of retribution.",
+        "buffs": { "dexterity": 2 },
+        "abilities": [
+            {
+                "name": "Silent Movement",
+                "description": "Move without making a sound.",
+                "effect": "Gain advantage on Stealth checks for 3 turns.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Espionage Expertise",
+                "description": "Gather intelligence discreetly.",
+                "effect": "Gain advantage on Perception checks for 3 turns.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "Cat Girl": {
+        "description": "It's like choosing to be the internet's darling, but with more fur and a charisma bonus that makes politicians look like amateurs. Offending Domino is a badge of honor, or perhaps a death wish, depending on how you look at it. Sister Ines, the Havana Brown cat humanoid, is living proof that sometimes, being adorable is enough to start a feud.",
+        "buffs": { "dexterity": 2 },
+        "abilities": [
+            {
+                "name": "Nimble Reflexes",
+                "description": "Evade attacks with agility.",
+                "effect": "Gain advantage on Dodge checks for 3 turns.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Charming Purr",
+                "description": "Influence others with a soft purr.",
+                "effect": "Gain advantage on Persuasion checks for 3 turns.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "Crest": {
+        "description": "The Crest, a race that boldly challenges the necessity of eyebrows in society. Engaging in faction wars with the smooth confidence of someone who has never known the struggle of a bad brow day. If you've ever wanted to be part of a community that values forehead real estate over facial expressions, the Crest is calling your name.",
+        "buffs": { "intelligence": 2 },
+        "abilities": [
+            {
+                "name": "Arcane Mastery",
+                "description": "Cast spells with increased potency.",
+                "effect": "Gain advantage on Spellcasting checks for 3 turns.",
+                "abilityPointCost": 3,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Mystic Knowledge",
+                "description": "Understand ancient lore.",
+                "effect": "Gain advantage on Lore checks for 3 turns.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "Igneous": {
+        "description": "Ever wanted to be the person at the party who can casually mention they're made of rock and can shoot lava? Igneous is your ticket to becoming that conversation stopper. Altering personalities like they're going out of style, these rockstars (pun intended) bring new meaning to 'hot-headed.' With the ability to breathe underwater, because why not add that to the mix, choosing Igneous means never having to play it cool.",
+        "buffs": { "strength": 2 },
+        "abilities": [
+            {
+                "name": "Magma Strike",
+                "description": "Infuse attacks with molten lava.",
+                "effect": "Deal an additional 1d6 fire damage on next melee attack.",
+                "abilityPointCost": 3,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Stone Skin",
+                "description": "Harden skin to reduce damage.",
+                "effect": "Gain resistance to physical damage for 3 turns.",
+                "abilityPointCost": 3,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "Bune": {
+        "description": "Ah, the Bune, because the universe looked at dragons and thought, 'What if we made them less fire-breathy and more... approachable?' Imagine a dragon that got a corporate job and settled down in the suburbs. Bune are your go-to for those who want the prestige of draconic ancestry without the hassle of hoarding gold or kidnapping princesses. Less 'burninate the countryside,' more 'can you help me file my taxes?'",
+        "buffs": { "intelligence": 2 },
+        "abilities": [
+            {
+                "name": "Draconic Knowledge",
+                "description": "Tap into ancient dragon lore.",
+                "effect": "Gain advantage on Lore checks related to dragons for 3 turns.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Fire Breath",
+                "description": "Breathe fire on enemies.",
+                "effect": "Deal 2d6 fire damage in a cone.",
+                "abilityPointCost": 3,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "Crocodilian": {
+        "description": "Imagine a creature that embodies the phrase 'you are what you eat' to a terrifyingly literal degree. Crocodilians, the apex predators of the buffet line, get triple the mileage out of their meals. Want to see a barbarian go from zero to hero with a single snack? Choose Crocodilian, and remember, friends don't let friends skip meal prep.",
+        "buffs": { "strength": 2 },
+        "abilities": [
+            {
+                "name": "Swamp Ambush",
+                "description": "Strike from the water with surprise.",
+                "effect": "Gain advantage on Stealth checks when in water for 3 turns.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Powerful Jaws",
+                "description": "Deliver a crushing bite.",
+                "effect": "Deal an additional 1d8 damage on next melee attack.",
+                "abilityPointCost": 3,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "Vampire": {
+        "description": "Ah, the classic bloodsucker with a real estate problem. Vampires, the only race that considers a staircase more of a life commitment than a convenience. If you've ever wanted to live the high-stakes life of 'will I find my next meal or become a sun-dried tomato,' vampirism is for you. Just remember, it's all fun and games until someone brings garlic to the party.",
+        "buffs": { "stamina": 2 },
+        "abilities": [
+            {
+                "name": "Blood Drain",
+                "description": "Siphon life from an enemy.",
+                "effect": "Deal 1d6 necrotic damage and heal for the same amount.",
+                "abilityPointCost": 3,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Vampiric Charm",
+                "description": "Charm an enemy with a gaze.",
+                "effect": "Target must make a Stamina check or be charmed for 2 turns.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "Yenk": {
+        "description": "The Yenk, solving overpopulation one awkward family reunion at a time. With three genders and a reproduction system that sounds like a bureaucratic nightmare, Yenk society is as complicated as their love life. Males get the short end of the stick, or in some cases, lose it entirely. Perfect for players who love a good challenge, or just hate making decisions without a committee.",
+        "buffs": { "manipulation": 2 },
+        "abilities": [
+            {
+                "name": "Deceptive Tactics",
+                "description": "Influence others with cunning.",
+                "effect": "Gain advantage on Manipulation checks for 3 turns.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Silent Step",
+                "description": "Move without making a sound.",
+                "effect": "Gain advantage on Stealth checks for 3 turns.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "Shade Gnoll": {
+        "description": "Ever wondered who you call when a fantasy riot breaks out? Enter the Shade Gnolls, the fuzz with a bite. Specializing in crowd control, these hyena-like creatures bring new meaning to 'laughing in the face of danger.' Choosing to be a Shade Gnoll means you're the party's designated driver, in charge of herding your drunk friends away from trouble.",
+        "buffs": { "dexterity": 2 },
+        "abilities": [
+            {
+                "name": "Shadow Strike",
+                "description": "Attack from the shadows.",
+                "effect": "Gain advantage on next melee attack from stealth.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Dark Vision",
+                "description": "See in complete darkness.",
+                "effect": "Gain advantage on Perception checks in darkness for 3 turns.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "Coal Engine": {
+        "description": "Because someone out there looked at a rock and thought, 'This could use more horsepower.' Coal Engines are the diesel punk dream of the rock world, turning the 'dumb as a rock' stereotype on its head. Ideal for those who fantasize about being both the boulder and the unstoppable force.",
+        "buffs": { "stamina": 2 },
+        "abilities": [
+            {
+                "name": "Endless Endurance",
+                "description": "Resist fatigue and exhaustion.",
+                "effect": "Gain resistance to fatigue effects for 3 turns.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Heavy Strike",
+                "description": "Deliver a powerful attack.",
+                "effect": "Deal double damage on next melee attack.",
+                "abilityPointCost": 3,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "Skin Skelly": {
+        "description": "Imagine having the power to gross out both the living and the dead. Skin Skellies, the skeletons that decided being bone-dry wasn't quite their style. These fashion-forward undead can grow flesh and organs on a whim, making them the only race that can literally wear their heart on their sleeve. Perfect for those who can't commit to a tattoo and enjoy a good molt now and then.",
+        "buffs": { "stamina": 2 },
+        "abilities": [
+            {
+                "name": "Undead Resilience",
+                "description": "Resist physical damage.",
+                "effect": "Gain resistance to physical damage for 3 turns.",
+                "abilityPointCost": 3,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Bone Smash",
+                "description": "Deliver a crushing blow.",
+                "effect": "Deal an additional 1d8 damage on next melee attack.",
+                "abilityPointCost": 3,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "Sasquatch": {
+        "description": "Ever wanted to embody the essence of every blurry photograph ever taken? Sasquatches are your go-to. Available exclusively to those with a level 5 smush skill (because, of course, squashing things is a prerequisite), these gentle giants are the hide-and-seek champions of the world. If you enjoy long walks in the woods and being the subject of conspiracy theories, the Sasquatch life is calling.",
+        "buffs": { "stealth": 2 },
+        "abilities": [
+            {
+                "name": "Camouflage",
+                "description": "Blend into natural surroundings.",
+                "effect": "Gain advantage on Stealth checks in forested or natural environments for 3 turns.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Massive Strength",
+                "description": "Use your immense strength to your advantage.",
+                "effect": "Gain +2 to Strength for 3 turns.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "Intellect Hunter": {
+        "description": "Nothing says 'I've arrived' quite like commandeering a rotting corpse. Intellect Hunters, the parasites with a penchant for the macabre, take 'living vicariously' to a whole new level. If you've ever aspired to a life of post-mortem puppetry with a side of existential dread, congratulations, you've found your calling.",
+        "buffs": { "intelligence": 2 },
+        "abilities": [
+            {
+                "name": "Hunter's Insight",
+                "description": "Track and predict enemy movements.",
+                "effect": "Gain advantage on Investigation checks related to tracking for 3 turns.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Focused Mind",
+                "description": "Resist mental attacks.",
+                "effect": "Gain advantage on saving throws against mental effects for 3 turns.",
+                "abilityPointCost": 3,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "Night Dwarfs": {
+        "description": "What happens when dwarfs decide the sun is overrated? Night Dwarfs, that's what. Perfect for players who love their ale dark, their tunnels deep, and their enemies unable to see in the dark.",
+        "buffs": { "intelligence": 2 },
+        "abilities": [
+            {
+                "name": "Dark Vision",
+                "description": "See perfectly in complete darkness.",
+                "effect": "Gain advantage on Perception checks in darkness for 3 turns.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Stonecunning",
+                "description": "Gain insight into stonework and underground structures.",
+                "effect": "Gain advantage on Engineering checks related to stonework for 3 turns.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "Elf": {
+        "description": "Ah, elves, the runway models of the fantasy world. With their pointy ears and haughty demeanor, elves are what happens when nature decides to favor style over substance. If you've ever wanted to spend more time on your hair than on your combat training, picking an elf race is the first step on your journey to being insufferably beautiful.",
+        "buffs": { "dexterity": 2 },
+        "abilities": [
+            {
+                "name": "Elven Agility",
+                "description": "Move with extraordinary grace and speed.",
+                "effect": "Gain advantage on Athletics checks for 3 turns.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Magic Affinity",
+                "description": "Enhance your spellcasting abilities.",
+                "effect": "Gain advantage on Spellcasting checks for 3 turns.",
+                "abilityPointCost": 3,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "Setonix": {
+        "description": "Imagine a creature so adorable, it's practically weaponized. Setonix, the lovechild of a wombat and an ewok, stand at a fearsome 4 feet tall and are masters of the 'aww' factor. Choosing Setonix means you're ready to conquer the world with cuteness and possibly an army of devoted fans who can't resist your charm.",
+        "buffs": { "stamina": 2 },
+        "abilities": [
+            {
+                "name": "Resilient Physique",
+                "description": "Endure harsh conditions and recover quickly.",
+                "effect": "Gain resistance to environmental damage for 3 turns.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Quick Recovery",
+                "description": "Heal minor wounds rapidly.",
+                "effect": "Regain 5 HP per turn for 3 turns.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "Grulke": {
+        "description": "Who needs grace when you can have slime? Grulkes, the amphibious answer to the question nobody asked, are five-foot-tall toad people capable of leaping into action (or away from responsibility) with ease. If your dream is to devastate foes with your tongue and make a splash, literally, Grulke is the way to go.",
+        "buffs": { "intelligence": 2 },
+        "abilities": [
+            {
+                "name": "Arcane Knowledge",
+                "description": "Tap into deep magical knowledge.",
+                "effect": "Gain advantage on Lore checks related to magic for 3 turns.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Mystic Shield",
+                "description": "Create a magical barrier for protection.",
+                "effect": "Gain +2 to AC for 3 turns.",
+                "abilityPointCost": 3,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "Arachnid": {
+        "description": "Half-human, half-tarantula, and all nightmare fuel. Arachnids are for those who looked at a spider and thought, 'Yeah, but what if it was bigger and could talk?' Perfect for players who want to walk on walls, terrify arachnophobes, and always have a leg up on the competition.",
+        "buffs": { "dexterity": 2 },
+        "abilities": [
+            {
+                "name": "Web Walker",
+                "description": "Move effortlessly through webs and sticky environments.",
+                "effect": "Gain advantage on Athletics checks in webbed or sticky environments for 3 turns.",
+                "abilityPointCost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Venomous Bite",
+                "description": "Deliver a toxic bite to your enemy.",
+                "effect": "Deal 1d6 poison damage and poison the target for 2 turns.",
+                "abilityPointCost": 3,
+                "cooldown": "1 hour"
+            }
+        ]
+    }
+  }
+  

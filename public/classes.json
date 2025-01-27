@@ -1,0 +1,1008 @@
+{
+    "Swash Buckler": {
+        "description": "Ah, the Swashbuckler, a class for those who have decided that the best way to solve problems is with panache, flair, and a good ol' rapier wit—both figuratively and literally. These are the folks who will swing from chandeliers, charm the socks off a dragon, and still have time to write a sonnet about their heroics. They're as likely to talk an enemy to death as they are to skewer them, making them the life, or death, of any party.",
+        "buffs": { "charisma": 2 },
+        "abilities": [
+            {
+                "name": "Daring Strike",
+                "description": "Perform a flamboyant attack.",
+                "effect": "Deal an additional 1d6 damage and gain advantage on the next attack roll.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Charm Offensive",
+                "description": "Use charm to disarm an opponent.",
+                "effect": "Target must make a Charisma check or be charmed for 2 turns.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "Blizzardmancer": {
+        "description": "Enter the Blizzardmancer, the wizard who thought controlling fire was too mainstream and opted for the more chill option—pun very much intended. These are the folks who bring a snow day to the scorching desert, making friends and foes alike shiver in their boots. Their idea of a warm welcome is a snowstorm, and they consider ice-breaking at parties quite literal. Just don't ask them to fetch a warm drink; you'll end up with an iced latte, whether you like it or not.",
+        "buffs": { "intelligence": 2 },
+        "abilities": [
+            {
+                "name": "Frost Nova",
+                "description": "Release a burst of cold energy.",
+                "effect": "Deal 2d6 cold damage to all enemies within a 10-foot radius and slow their movement by half for 2 turns.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Ice Shield",
+                "description": "Create a protective barrier of ice.",
+                "effect": "Gain +2 to AC for 3 turns.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "Nimblefoot Enforcer": {
+        "description": "The Nimblefoot Enforcer, for when you absolutely, positively need someone kicked in the face discreetly and with style. These agile warriors are part acrobat, part ass-kicker, specializing in making sure their foes are too embarrassed to admit how they got those bruises. 'Stepped on a banana peel' takes on a whole new meaning with them around, combining stealth, speed, and a bit of slapstick to the battlefield.",
+        "buffs": { "dexterity": 2 },
+        "abilities": [
+            {
+                "name": "Acrobatic Assault",
+                "description": "Perform an acrobatic attack.",
+                "effect": "Gain advantage on the next attack roll and deal an additional 1d6 damage.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Stealth Strike",
+                "description": "Attack from the shadows.",
+                "effect": "Deal double damage on the next attack if made from stealth.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "bloodAssassin": {
+        "description": "The Blood Assassin, because why simply assassinate someone when you can also make it look like a horror show? These are the artists who paint in shades of crimson, turning their kills into a spectacle of gore. Not for the faint of heart, or stomach, they're the reason why 'overkill' is just starting to get interesting. They take 'bleeding edge technology' a bit too literally, but hey, no one's complaining—mostly because they're, well, dead.",
+        "buffs": { "dexterity": 2 },
+        "abilities": [
+            {
+                "name": "Blood Frenzy",
+                "description": "Enter a state of heightened attack.",
+                "effect": "Gain +2 to attack rolls and deal an additional 1d6 damage for 3 turns.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Silent Kill",
+                "description": "Perform a lethal, silent attack.",
+                "effect": "Deal 3d6 damage, and the target must make a Stamina check or be stunned for 1 turn.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "fireSpiritualist": {
+        "description": "The Fire Spiritualist is like the weird cousin of the pyromancer who decided that playing with fire wasn't enough; they wanted to be in a relationship with it. They talk to flames like old friends, and their idea of a candlelit dinner involves summoning a fire elemental as the third wheel. Warm-hearted, hot-headed, and occasionally setting their surroundings ablaze with spiritual fervor, they're the life of the party—until the fire department shows up.",
+        "buffs": { "intelligence": 2 },
+        "abilities": [
+            {
+                "name": "Flame Burst",
+                "description": "Release a burst of fire.",
+                "effect": "Deal 2d6 fire damage to all enemies within a 10-foot radius.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Fire Shield",
+                "description": "Create a protective barrier of fire.",
+                "effect": "Gain +2 to AC and deal 1d6 fire damage to attackers for 3 turns.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "knifeSharpener": {
+        "description": "Knife Sharpener, the class for those who believe that the pen might be mightier than the sword, but a well-sharpened knife beats both. These meticulous folks can turn a dull butter knife into a weapon of mass destruction with just a few swipes. Their motto? 'A sharp knife is a happy knife, and a happy knife makes for an unhappy enemy.' They're like barbers, but for blades, and a whole lot more lethal.",
+        "buffs": { "dexterity": 2 },
+        "abilities": [
+            {
+                "name": "Sharpen Blade",
+                "description": "Enhance a weapon's edge.",
+                "effect": "Add +1 to damage rolls for the next 3 attacks.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Quick Strike",
+                "description": "Deliver a swift, precise attack.",
+                "effect": "Deal an additional 1d6 damage and gain advantage on the next attack roll.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "holisticHealer": {
+        "description": "Holistic Healer, because why use boring old magic or medicine when you can use crystals, herbs, and a touch of wishful thinking? These healers believe that every potion starts with a good intention, and they're all about that natural remedy life. Side effects may include unexpected bouts of enlightenment, sudden veganism, or an unexplained affinity for patchouli. They're the ones you call when you want to be healed body, soul, and spirit—just don't ask for a timeline.",
+        "buffs": { "wisdom": 2 },
+        "abilities": [
+            {
+                "name": "Healing Herbs",
+                "description": "Use natural remedies to heal.",
+                "effect": "Heal an ally for 2d8 HP.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Protective Aura",
+                "description": "Create a soothing, protective aura.",
+                "effect": "Gain +2 to AC and resistance to poison for 3 turns.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "legatus": {
+        "description": "The Legatus, for when your idea of leadership involves a lot of shouting, gesturing, and making sure everyone knows you're in charge. These battlefield commanders are part strategist, part motivational speaker, and all about that authority. They can turn a ragtag group of adventurers into a finely tuned machine of destruction—all it takes is a good pep talk and maybe a threat or two. They're like the middle managers of the adventuring world, but with more swords and less paperwork.",
+        "buffs": { "charisma": 2 },
+        "abilities": [
+            {
+                "name": "Inspiring Command",
+                "description": "Boost the morale of allies.",
+                "effect": "Allies within 30 feet gain +2 to attack rolls and saving throws for 3 turns.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Tactical Maneuver",
+                "description": "Execute a strategic move.",
+                "effect": "Gain advantage on the next attack roll and +2 to AC for 3 turns.",
+                "cost": 2,
+                "cooldown": "1 hour"
+           
+
+ }
+        ]
+    },
+    "shotgunMessenger": {
+        "description": "Finally, the Shotgun Messenger, because why deliver a message with words when you can use buckshot? These are the postal workers of the apocalypse, ensuring that every delivery is both prompt and explosive. Their motto? 'When it absolutely, positively has to be destroyed overnight.' They're the reason why 'shooting the messenger' is not only a bad idea but potentially fatal.",
+        "buffs": { "dexterity": 2 },
+        "abilities": [
+            {
+                "name": "Buckshot Blast",
+                "description": "Fire a spread of buckshot.",
+                "effect": "Deal 2d6 damage to all enemies in a 15-foot cone.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Quick Reload",
+                "description": "Rapidly reload your weapon.",
+                "effect": "Reload instantly and gain advantage on the next attack roll.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "shieldmaiden": {
+        "description": "The Shieldmaiden: because who needs a knight in shining armor when you can have a warrior queen who’s not afraid to chip her nail polish on the shield edge? These valiant vixens specialize in the fine art of 'not today, death.' They wield shields larger than your average dining table, turning defense into a deadly art form. They're the bouncers of the battlefield, deciding who gets in (no one) and who gets tossed out (everyone).",
+        "buffs": { "strength": 2 },
+        "abilities": [
+            {
+                "name": "Shield Bash",
+                "description": "Use your shield to attack.",
+                "effect": "Deal 1d6 damage and stun the target for 1 turn.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Defensive Stance",
+                "description": "Enhance your defensive capabilities.",
+                "effect": "Gain +4 to AC for 3 turns.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "santero": {
+        "description": "Enter the Santero, a spiritual heavyweight who packs a punch with both the divine and the dead. When they're not consulting the spirits for guidance, they're probably sending a curse your way, just for balance. They're the life of the party, assuming your party enjoys communing with ancestors and the occasional chicken sacrifice. They're a walking, talking Ouija board, but with better advice and more sass.",
+        "buffs": { "wisdom": 2 },
+        "abilities": [
+            {
+                "name": "Spiritual Guidance",
+                "description": "Call upon spirits for help.",
+                "effect": "Gain advantage on Lore checks for 3 turns.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Curse of the Dead",
+                "description": "Place a curse on an enemy.",
+                "effect": "Target must make a Wisdom check or suffer disadvantage on attack rolls for 3 turns.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "prodromoi": {
+        "description": "The Prodromoi, because who needs a cavalry when you can have a one-person vanguard that scares the bejesus out of everyone? These ancient scouts are so ahead of their time, they're practically in the next time zone. Equipped with speed, stealth, and a flair for dramatic entrances, they're the first to arrive and the last to leave—mostly because they've already scouted all the exits.",
+        "buffs": { "dexterity": 2 },
+        "abilities": [
+            {
+                "name": "Swift Scout",
+                "description": "Move quickly and silently.",
+                "effect": "Gain advantage on Perception and Stealth checks for 3 turns.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Surprise Attack",
+                "description": "Strike from an unexpected angle.",
+                "effect": "Deal an additional 2d6 damage on next attack if the target is unaware.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "zuluWarrior": {
+        "description": "Zulu Warrior, the embodiment of 'speak softly and carry a big stick'—except their version of 'softly' is a battle cry that chills the very soul. These masters of strategy and close combat don't just fight; they turn war into performance art. Their prowess on the battlefield is matched only by their dignity off it, proving that true warriors carry their strength not just in their arms but in their hearts.",
+        "buffs": { "strength": 2 },
+        "abilities": [
+            {
+                "name": "Battle Cry",
+                "description": "Boost the morale of allies and intimidate enemies.",
+                "effect": "Allies gain +2 to attack rolls and enemies must make a Wisdom check or be frightened for 2 turns.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Spear Throw",
+                "description": "Throw a spear with deadly precision.",
+                "effect": "Deal 2d6 damage to a target within 30 feet.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "spy": {
+        "description": "The Spy: because sometimes the best way to solve a problem is to make sure the problem never knows you're there. Masters of disguise, subterfuge, and having a plan B through Z, they're like the Swiss Army knife of intrigue—useful in every situation, especially the ones they cause. They're the reason 'just being paranoid' isn't as comforting as it sounds.",
+        "buffs": { "intelligence": 2 },
+        "abilities": [
+            {
+                "name": "Disguise",
+                "description": "Change appearance to blend in.",
+                "effect": "Gain advantage on Disguise checks for 3 turns.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Infiltrate",
+                "description": "Gain access to restricted areas.",
+                "effect": "Gain advantage on Stealth and Persuasion checks for 3 turns.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "gutRearranger": {
+        "description": "Gut Rearranger, a title that sounds more like a threat than a profession. This class takes the concept of 'internal medicine' to a whole new, literal level. Specializing in close combat that's a bit too close for comfort, they're experts in ensuring that any enemy they meet might need a very specialized surgeon. They're the reason why 'gut feeling' can be more of a diagnosis than intuition.",
+        "buffs": { "strength": 2 },
+        "abilities": [
+            {
+                "name": "Eviscerate",
+                "description": "Perform a devastating attack.",
+                "effect": "Deal 3d6 damage and the target must make a Stamina check or be stunned for 1 turn.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Intimidating Presence",
+                "description": "Intimidate nearby enemies.",
+                "effect": "Enemies within 10 feet must make a Wisdom check or be frightened for 2 turns.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "bogatyr": {
+        "description": "Bogatyr, the Slavic superhero who makes knights in shining armor look like tin foil decorations. With strength that's the stuff of legends and a moral compass that always points to 'heroic,' these warriors are like the fantasy equivalent of a blockbuster action star. They're here to kick evil's butt, save the innocent, and maybe, just maybe, sing a ballad or two about it.",
+        "buffs": { "strength": 2 },
+        "abilities": [
+            {
+                "name": "Heroic Charge",
+                "description": "Lead a charge into battle.",
+                "effect": "Move up to 30 feet and make a melee attack with +2 to hit and +2 damage.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Legendary Valor",
+                "description": "Inspire allies with your bravery.",
+                "effect": "Allies within 30 feet gain +2 to attack rolls and saving throws for 3 turns.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "dBagGeek": {
+        "description": "D-Bag Geek, because every party needs its comic relief, and nothing says 'I'm here to help, but also annoy you' quite like this class. Armed with arcane knowledge, an arsenal of gadgets, and a personality that's an acquired taste, they're like the internet troll turned unlikely hero. They'll save the day, but they'll also make sure you never hear the end of it.",
+        "buffs": { "intelligence": 2 },
+        "abilities": [
+            {
+                "name": "Gadget Master",
+                "description": "Use a gadget to solve a problem.",
+                "effect": "Gain advantage on Technology checks for 3 turns.",
+                "cost": 2
+
+,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Arcane Wit",
+                "description": "Use your quick thinking to outsmart enemies.",
+                "effect": "Gain advantage on Deception checks for 3 turns.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "weatherEngineer": {
+        "description": "Weather Engineer, the meteorologist with a god complex. Why predict the weather when you can create it? These elemental manipulators ensure that it's always raining on their enemies' parade—literally. With a flick of their wrist, they can turn a sunny day into a tempest, proving that sometimes, the best strategy is just changing the climate.",
+        "buffs": { "intelligence": 2 },
+        "abilities": [
+            {
+                "name": "Storm Call",
+                "description": "Summon a storm to strike enemies.",
+                "effect": "Deal 2d6 lightning damage to all enemies within a 15-foot radius.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Wind Gust",
+                "description": "Use wind to push back enemies.",
+                "effect": "Push enemies back 10 feet and they must make a Strength check or be knocked prone.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "freelancePsychiatrist": {
+        "description": "Freelance Psychiatrist, because dungeon crawling can be mentally taxing, and someone needs to listen to all those adventurer woes. With a couch that magically fits in their backpack, they're ready to unpack your issues anywhere, from the depths of a dragon's lair to the middle of a goblin ambush. They're the reason why 'I slay, therefore I am' is both a battle cry and a breakthrough in therapy.",
+        "buffs": { "wisdom": 2 },
+        "abilities": [
+            {
+                "name": "Therapeutic Insight",
+                "description": "Provide mental support to an ally.",
+                "effect": "An ally gains advantage on their next saving throw and recovers 1d6 HP.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Mind Soothe",
+                "description": "Calm the mind of a distressed ally.",
+                "effect": "Remove one fear or confusion effect from an ally.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "poetLaureate": {
+        "description": "The Poet Laureate: because nothing terrifies the enemy more than a well-crafted sonnet about their impending doom. This class wields words with the precision of a scalpel, cutting deeper than any sword. They can inspire allies to greatness and reduce foes to existential crises, proving that the pen (or quill) is indeed mightier than the sword—especially if it's enchanted.",
+        "buffs": { "charisma": 2 },
+        "abilities": [
+            {
+                "name": "Inspiring Verse",
+                "description": "Boost allies' morale with a powerful poem.",
+                "effect": "Allies within 30 feet gain +2 to attack rolls and saving throws for 3 turns.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Cutting Remark",
+                "description": "Dishearten an enemy with a biting comment.",
+                "effect": "Target must make a Wisdom check or suffer disadvantage on their next attack roll.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "sergeantAtArms": {
+        "description": "Sergeant-at-Arms, the one who ensures that order is not just a concept but a practice—especially when it involves bashing a few heads together. Think of them as the ultimate party planner, if the party is a battlefield and the guests need a good thrashing. Their leadership style is a mix of motivational speaking and threat of bodily harm, surprisingly effective in keeping the ranks.",
+        "buffs": { "strength": 2 },
+        "abilities": [
+            {
+                "name": "Rallying Cry",
+                "description": "Strengthen resolve of allies with a powerful shout.",
+                "effect": "Allies within 30 feet gain +2 to attack rolls and +2 AC for 3 turns.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Enforce Order",
+                "description": "Command an enemy to stand down.",
+                "effect": "Target must make a Charisma check or be stunned for 1 turn.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "imperialSoldier": {
+        "description": "The Imperial Soldier: disciplined, loyal, and equipped with a sense of superiority that's been honed alongside their blade. These are the guys who march into battle with matching uniforms and a game plan. They're like the fantasy version of 'leave no man behind,' except it's 'leave no man unless ordered by the emperor.' Efficiency and obedience are their watchwords, which they follow to the letter—unless the plot demands otherwise.",
+        "buffs": { "strength": 2 },
+        "abilities": [
+            {
+                "name": "Disciplined Strike",
+                "description": "Deliver a precise, controlled attack.",
+                "effect": "Gain advantage on the next attack roll and deal an additional 1d6 damage.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Shield Formation",
+                "description": "Create a defensive stance with allies.",
+                "effect": "Allies within 10 feet gain +2 to AC for 3 turns.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "ranger": {
+        "description": "Ranger, the nature-loving, arrow-slinging loner who's friends with every critter in the forest but can't remember the last time they had a decent conversation with another humanoid. They're the ultimate trackers, able to find their way and their target in even the most confusing terrain. Their motto: 'If you can't beat 'em, lead 'em into a trap in the wilderness.'",
+        "buffs": { "dexterity": 2 },
+        "abilities": [
+            {
+                "name": "Hunter's Mark",
+                "description": "Mark a target for increased damage.",
+                "effect": "Gain advantage on attack rolls against the marked target for 3 turns.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Trap Setting",
+                "description": "Set a trap to hinder enemies.",
+                "effect": "Targets must make a Dexterity check or be immobilized for 2 turns.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "archer": {
+        "description": "Archer, because why get up close and personal when you can make your point from a hundred yards away? These sharpshooters can thread a needle with an arrow and consider 'bullseye' too easy a target. They bring precision, patience, and a certain flair for dramatic long-distance communication, proving that sometimes, actions (and arrows) really do speak louder than words.",
+        "buffs": { "dexterity": 2 },
+        "abilities": [
+            {
+                "name": "Precision Shot",
+                "description": "Make a highly accurate ranged attack.",
+                "effect": "Gain advantage on the next ranged attack roll and deal an additional 1d6 damage.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Rain of Arrows",
+                "description": "Shoot multiple arrows at once.",
+                "effect": "Deal 1d6 damage to up to three targets within a 10-foot radius.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "hammersmith": {
+        "description": "Hammersmith, the forger of dreams and destroyer of worlds—at least, if those worlds are made of metal and require some pounding. This class turns blacksmithing into a combat skill, swinging hammers that are as deadly as any sword. They're the backbone of any adventuring party, ensuring everyone is well-armed and that every problem looks like a nail.",
+        "buffs": { "strength": 2 },
+        "abilities": [
+            {
+                "name": "Forge Strike",
+                "description": "Deliver a powerful hammer blow.",
+                "effect": "Deal double damage on next melee attack.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Armor Reinforcement",
+                "description": "Temporarily strengthen allies' armor.",
+                "effect": "Allies within 10 feet gain +2 to AC for 3 turns.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "sacredPaladin": {
+        "description": "Sacred Paladin, the holy warrior who's as righteous as they are armored. They're on a divine mission to smite evil, heal the innocent, and occasionally give long-winded speeches about virtue. With a shield in one hand and a holy symbol in the other, they're ready to face darkness, or at least lecture it into submission.",
+        "buffs": { "charisma": 2 },
+        "abilities": [
+            {
+                "name": "Divine Smite",
+                "description": "Infuse a melee attack with holy power.",
+                "effect": "Deal an additional 2d6 radiant damage on next melee attack.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Holy Shield",
+                "description": "Create a protective barrier.",
+                "effect": "Gain +2 to AC and resistance to necrotic damage for 3 turns.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "glassCannon": {
+        "description": "Glass Cannon, because who needs defense when you can obliterate everything in sight? This class is all about high risk, high reward, and an allergy to anything resembling armor. They can dish out tremendous damage but shatter at the first counterattack, proving that sometimes the best defense is a good, overwhelming offense—and a solid escape plan.",
+        "buffs": { "intelligence": 2 },
+        "abilities": [
+            {
+                "name": "Arcane Blast",
+                "description": "Release a burst of magical energy.",
+                "effect": "Deal 2d6 force damage to all enemies within a 15-foot radius.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Frail but Deadly",
+                "description": "Increase damage output but lower defenses.",
+                "effect": "Deal an additional 1d6 damage on all attacks for 3 turns, but suffer -2 to AC.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "demigodAttendant": {
+        "description": "Demigod Attendant, the divine intern of the celestial realm. Serving under a demigod, they're part PA, part disciple, and all about that divine intervention life. They learn the ropes of omnipotence on the job, handling tasks that range from smiting to fetching divine dry cleaning. It's not always glamorous, but hey, the benefits are heavenly.",
+        "buffs": { "charisma": 2 },
+        "abilities": [
+            {
+                "name": "Divine Intervention",
+                "description": "Call upon the power of the demigod.",
+                "effect": "Gain +2 to all ability scores for 3 turns.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Blessing of Power",
+                "description": "Empower an ally with divine energy.",
+                "effect": "An ally gains +2 to attack rolls and saving throws for 3 turns.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "vapeShopCounterJockey": {
+        "description": "Vape Shop Counter Jockey, because even adventurers need a place to chill and discuss their next quest over some artisanal fog. This class masters the art of concocting mystical vapors that can heal, invigorate, or just set the mood. They're the laid-back, cloud-producing heart of the social scene, proving that sometimes, the penultimate weapon is flavor.",
+        "buffs": { "charisma": 2 },
+        "abilities": [
+            {
+                "name": "Mystical Vapors",
+                "description": "Create a cloud of healing mist.",
+                "effect": "Heal all allies within a 10-foot radius for 2d6 HP.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Calming Aroma",
+                "description": "Soothe and relax allies.",
+                "effect": "Allies gain advantage on saving throws for 3 turns.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "pitFighter": {
+        "description": "Pit Fighter, the class for those who like their battles up close, personal, and preferably in an arena with cheering fans. These gladiators turn combat into spectacle, proving their worth in blood and sand. They're as charismatic as they are deadly, and they know how to put on a good show—even if it's their last.",
+        "buffs": { "strength": 2 },
+        "abilities": [
+            {
+                "name": "Arena Champion",
+                "description": "Fight with the skill of a seasoned gladiator.",
+                "effect": "Gain advantage on melee attack rolls for 3 turns.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Crowd Pleaser",
+                "description": "Inspire fear or admiration in enemies.",
+                "effect": "Enemies within 10 feet must make a Wisdom check or be frightened for 2 turns.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "legendaryDiva": {
+        "description": "Legendary Diva, because why fight when you can simply outshine your opponents? This class wields the power of performance, captivating friends and foes alike with a voice that can soothe, inspire, or devastate. They're the centerpiece of any battle, not just for their combat prowess but for their unmatched ability to hit those high notes in the heat of battle.",
+        "buffs": { "charisma": 2 },
+        "abilities": [
+            {
+                "name": "Sonic Boom",
+                "description": "Release a powerful sonic attack.",
+                "effect": "Deal 2d6 thunder damage to all enemies within a 15-foot radius.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Inspiring Performance",
+                "description": "Boost allies' morale with a captivating performance.",
+                "effect": "Allies within 30 feet gain +2 to attack rolls and saving throws for 3 turns.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "viperQueen": {
+        "description": "Viper Queen, the sovereign of slither, whose mere presence commands respect, fear, and a healthy distance. This class embraces the venomous, the cunning, and the cold-blooded (literally). With an affinity for all things serpentine, they can control, command, or become vipers, proving that sometimes, the most dangerous thing in the room isn't the sword but the snake hiding in the shadows.",
+        "buffs": { "dexterity": 2 },
+        "abilities": [
+            {
+                "name": "Venomous Strike",
+                "description": "Deliver a poisonous attack.",
+                "effect": "Deal an additional 1d6 poison damage and poison the target for 2 turns.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Snake Charmer",
+                "description": "Control serpents to fight by your side.",
+                "effect": "Summon a snake that deals 1d6 damage and can poison targets for 3 turns.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "masterTelephonePsychic": {
+        "description": "The Master Telephone Psychic, because why face your problems when you can have someone on a hotline tell you everything's going to be okay—for a small fee per minute? Armed with an uncanny ability to 'sense' things (and a quick internet search), they provide guidance, vague predictions, and a sympathetic ear, all without ever having to leave their chair.",
+        "buffs": { "charisma": 2 },
+        "abilities": [
+            {
+                "name": "Psychic Insight",
+                "description": "Predict the actions of an enemy.",
+                "effect": "Gain advantage on all attack rolls against a single target for 3 turns.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Calm Mind",
+                "description": "Soothe an ally's mind.",
+                "effect": "Remove one fear or confusion effect from an ally.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "agonyUrchin": {
+        "description": "Agony Urchin, the embodiment of that small, persistent pain you can't quite locate or explain. This prickly character thrives on discomfort, both physical and emotional, making them a foe no one wants to confront. Their presence alone is enough to make armor chafe and boots pinch, proving that sometimes the smallest irritants are the most effective.",
+        "buffs": { "stamina": 2 },
+        "abilities": [
+            {
+                "name": "Pain Inducer",
+                "description": "Inflict debilitating pain on an enemy.",
+                "effect": "Target must make a Stamina check or suffer disadvantage on all rolls for 3 turns.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Endure Agony",
+                "description": "Draw strength from pain.",
+                "effect": "Gain +2 to all ability scores for 3 turns when at less than half HP.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "feralCatBerserker": {
+        "description": "Feral Cat Berserker, because when you need something clawed to pieces with reckless abandon, accept no substitutes. This warrior channels the spirit of every alley cat who ever hissed at a human, fought a dog, or knocked things off a shelf for no reason. They're unpredictable, unmanageable, and utterly terrifying to anyone with allergies.",
+        "buffs": { "strength": 2 },
+        "abilities": [
+            {
+                "name": "Frenzied Claws",
+                "description": "Attack with wild ferocity.",
+                "effect": "Gain an additional melee attack and +2 to attack rolls for 3 turns.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Cat Reflexes",
+                "description": "Dodge incoming attacks with feline agility.",
+                "effect": "Gain advantage on Dodge checks for 3 turns.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "animalTestSubject": {
+        "description": "Animal Test Subject, the class for those who've endured every experimental potion, device, and spell, emerging with unpredictable abilities and a justifiable wariness of scientists. Sometimes they'll sprout wings; other times, they might breathe fire. It's a bit of a gamble, but they're living proof that what doesn't kill you makes you weirder.",
+        "buffs": { "stamina": 2 },
+        "abilities": [
+            {
+                "name": "Experimental Mutation",
+                "description": "Temporarily gain a random beneficial mutation.",
+                "effect": "Roll a d6 to determine a temporary boost to Strength, Dexterity, or Stamina for 3 turns.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Adaptive Resilience",
+                "description": "Quickly adapt to harmful conditions.",
+                "effect": "Gain resistance to a specific damage type (fire, cold, poison, etc.) for 3 turns.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "rollerDerbyJammer": {
+        "description": "Roller Derby Jammer, skating into combat with the grace of a gazelle and the aggression of a grizzly bear. These warriors bring the rink to the battlefield, using speed, agility, and a healthy disregard for personal safety to outmaneuver and outstrike their foes. Elbows are sharp, and so is their strategy.",
+        "buffs": { "dexterity": 2 },
+        "abilities": [
+            {
+                "name": "Speed Boost",
+                "description": "Increase movement speed and agility.",
+                "effect": "Double movement speed and gain +2 to Dexterity for 3 turns.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Rolling Strike",
+                "description": "Perform a high-speed attack.",
+                "effect": "Deal an additional 1d6 damage and knock the target prone.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "trebuchetCommander": {
+        "description": "Trebuchet Commander, because sometimes the best way to solve a problem is by hurling a 90kg projectile over 300 meters. This class combines engineering prowess with a love of destruction from a distance, proving that sometimes, the old ways are the best ways—especially when it comes to siege warfare.",
+        "buffs": { "intelligence": 2 },
+        "abilities": [
+            {
+                "name": "Catapult Strike",
+                "description": "Launch a heavy projectile at enemies.",
+                "effect": "Deal 3d6 damage to all enemies within a 15-foot radius.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Siege Tactics",
+                "description": "Improve the effectiveness of siege weapons.",
+                "effect": "Allies operating siege weapons gain +2 to attack rolls and damage for 3 turns.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "riotForcesSupport": {
+        "description": "Riot Forces Support, the backbone of any protest turned skirmish. Equipped with shields, batons, and an unwavering sense of duty, they're here to keep the peace—or at least, keep the rioters at bay. They're the reason why 'bringing a knife to a gunfight' is still better than facing them unarmed.",
+        "buffs": { "stamina": 2 },
+        "abilities": [
+            {
+                "name": "Shield Wall",
+                "description": "Form an impenetrable defensive line.",
+                "effect": "Gain +4 to AC and resistance to physical damage for 3 turns.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Crowd Control",
+                "description": "Disperse enemies with force.",
+                "effect": "Deal 2d6 damage and push all enemies within a 10-foot radius back 10 feet.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "trickster": {
+        "description": "Trickster, the class that proves mischief is a valid combat strategy. These cunning characters weave confusion and chaos with a smile, turning the tide of battle without ever landing a blow. They're the reason why 'I swear it was like that when I got here' never holds up in court.",
+        "buffs": { "dexterity": 2 },
+        "abilities": [
+            {
+                "name": "Illusionary Disguise",
+                "description": "Create a convincing illusion.",
+                "effect": "Gain advantage on Disguise checks for 3 turns.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Confounding Trick",
+                "description": "Confuse and mislead an enemy.",
+                "effect": "Target must make a Wisdom check or be confused for 2 turns.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "warlock": {
+        "description": "Warlock, because why ask nicely for magical powers when you can make a deal with the cosmos itself? These spellcasters trade in the currency of souls, secrets, and the occasional firstborn for powers that blur the line between awe-inspiring and utterly terrifying. Just read the fine print before signing.",
+        "buffs": { "intelligence": 2 },
+        "abilities": [
+            {
+                "name": "Eldritch Blast",
+                "description": "Release a blast of dark energy.",
+                "effect": "Deal 2d6 necrotic damage to a target.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Pact Boon",
+                "description": "Call upon the power of your patron.",
+                "effect": "Gain +2 to all ability scores for 3 turns.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "windMage": {
+        "description": "Wind Mage, the master of breezes, gusts, and the occasional hurricane. These elementalists command the air with a flick of their wrist, proving that an ill wind blows no good—especially if you're on the wrong side of the battle. They're a breath of fresh air in a stalemate, turning the tide with the power of the skies.",
+        "buffs": { "intelligence": 2 },
+        "abilities": [
+            {
+                "name": "Gale Force",
+                "description": "Summon powerful winds to disrupt enemies.",
+                "effect": "Deal 2d6 damage and knock all enemies within a 10-foot radius prone.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Air Shield",
+                "description": "Create a protective barrier of wind.",
+                "effect": "Gain +2 to AC and resistance to ranged attacks for 3 turns.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "jouster": {
+        "description": "Jouster, because nothing says 'I challenge thee' quite like charging at your enemy with a long stick while riding a horse. This class brings the pageantry of medieval combat to the modern age, proving that chivalry isn't dead—it's just heavily armored and moving at high speed.",
+        "buffs": { "strength": 2 },
+        "abilities": [
+            {
+                "name": "Lance Charge",
+                "description": "Perform a powerful mounted attack.",
+                "effect": "Deal 3d6 damage to a target and knock them prone.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Defensive Posture",
+                "description": "Use your mount to shield against attacks.",
+                "effect": "Gain +2 to AC and +2 to saving throws for 3 turns.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "staunchBarrier": {
+        "description": "Staunch Barrier, the immovable object in a world of unstoppable forces. This defender stands tall in the face of danger, a living bulwark against all who would do harm. They're the reason why 'you shall not pass' is more than just a meme—it's a promise.",
+        "buffs": { "stamina": 
+
+2 },
+        "abilities": [
+            {
+                "name": "Immovable Object",
+                "description": "Stand firm against all attacks.",
+                "effect": "Gain +4 to AC and cannot be moved for 3 turns.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Protective Shield",
+                "description": "Shield allies from harm.",
+                "effect": "Allies within 10 feet gain +2 to AC for 3 turns.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "alleyCatBrawler": {
+        "description": "Alley Cat Brawler, because who needs martial arts when you've got street smarts and a mean right hook? This class thrives in the back alleys and shadowy corners of the world, turning every encounter into a rough-and-tumble scrap. They fight dirty, but they fight to win.",
+        "buffs": { "strength": 2 },
+        "abilities": [
+            {
+                "name": "Street Fighting",
+                "description": "Use dirty tactics to win.",
+                "effect": "Deal an additional 1d6 damage and target must make a Dexterity check or be stunned for 1 turn.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Grit and Grime",
+                "description": "Gain advantage on melee attack rolls for 3 turns.",
+                "effect": "Gain advantage on melee attack rolls for 3 turns.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "firecracker": {
+        "description": "Firecracker, the personification of 'boom.' This explosive character lights up the battlefield with a bang, leaving a trail of destruction and slightly singed enemies in their wake. They're a blast at parties, but you might want to keep them away from open flames.",
+        "buffs": { "dexterity": 2 },
+        "abilities": [
+            {
+                "name": "Explosive Burst",
+                "description": "Create a burst of fiery explosions.",
+                "effect": "Deal 2d6 fire damage to all enemies within a 10-foot radius.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Blinding Flash",
+                "description": "Disorient enemies with a flash of light.",
+                "effect": "All enemies within a 10-foot radius must make a Wisdom check or be blinded for 2 turns.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "footballHooligan": {
+        "description": "Football Hooligan, bringing team spirit—and a bit of mayhem—to the fray. More than just fans, these warriors turn their passion for the game into a combat strategy, proving that loyalty can indeed be a weapon. Just don't ask them to play fair.",
+        "buffs": { "strength": 2 },
+        "abilities": [
+            {
+                "name": "Riot Charge",
+                "description": "Lead a chaotic charge into battle.",
+                "effect": "Deal 2d6 damage to all enemies in a 10-foot line and knock them prone.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Team Spirit",
+                "description": "Boost the morale and strength of allies.",
+                "effect": "Allies within 30 feet gain +2 to attack rolls and damage for 3 turns.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "pterolykos": {
+        "description": "Pterolykos, the noble blend of wolf and wing, soaring above the battlefield with the grace of an eagle and the ferocity of a predator. This mythical warrior strikes from above, a guardian angel for some and a death sentence for others. They're the reason why 'look to the skies' is good advice.",
+        "buffs": { "dexterity": 2 },
+        "abilities": [
+            {
+                "name": "Sky Hunt",
+                "description": "Attack from above with precision.",
+                "effect": "Gain advantage on the next attack roll and deal an additional 1d6 damage.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Aerial Assault",
+                "description": "Perform a devastating attack from the air.",
+                "effect": "Deal 3d6 damage to a target and knock them prone.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "nineTails": {
+        "description": "Nine Tails, the mystical fox spirit with more tricks than tails. This enchanting class wields magic and cunning in equal measure, bewitching friends and foes alike. Their charm is as potent as their spells, proving that sometimes, what you see is definitely not what you get.",
+        "buffs": { "charisma": 2 },
+        "abilities": [
+            {
+                "name": "Mystic Illusion",
+                "description": "Create an illusion to confuse enemies.",
+                "effect": "Target must make a Wisdom check or be confused for 2 turns.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Enchanted Foxfire",
+                "description": "Summon magical flames to attack.",
+                "effect": "Deal 2d6 fire damage to up to three targets within a 10-foot radius.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            }
+        ]
+    },
+    "pestExterminator": {
+        "description": "Pest Exterminator, because no quest is too small and no creature too insignificant. Armed with an array of traps, poisons, and a deeply ingrained disdain for vermin, they're the final word in pest control. They're the reason why 'sleep tight, don't let the bedbugs bite' is more than just a saying.",
+        "buffs": { "dexterity": 2 },
+        "abilities": [
+            {
+                "name": "Toxin Spray",
+                "description": "Release a cloud of toxic gas.",
+                "effect": "Deal 2d6 poison damage to all enemies within a 10-foot radius and poison them for 2 turns.",
+                "cost": 3,
+                "cooldown": "1 hour"
+            },
+            {
+                "name": "Trap Setting",
+                "description": "Set a trap to catch pests.",
+                "effect": "Targets must make a Dexterity check or be immobilized for 2 turns.",
+                "cost": 2,
+                "cooldown": "1 hour"
+            }
+        ]
+    }
+}
