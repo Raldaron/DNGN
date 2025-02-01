@@ -1,0 +1,60 @@
+{
+    "throwables": {
+        "celestialgrenade": {
+            "name": "Celestial Grenade",
+            "description": "Summons a deity for one minute.",
+            "itemtype": "Throwable",
+            "rarity": "Legendary",
+            "effect": "Summons a deity for one minute.",
+            "duration": "1 minute (10 rounds)",
+            "range": "Throwing Distance",
+            "statbonus": {},
+            "skillbonus": {},
+            "abilities": {},
+            "hpbonus": 0,
+            "mpbonus": 0
+        },
+        "goblinsmokebomb": {
+            "name": "Goblin Smoke Bomb",
+            "description": "Emits a cloud of stinking multi-color opaque smoke.",
+            "itemtype": "Throwable",
+            "rarity": "Common",
+            "effect": "Emits a cloud of stinking multi-color opaque smoke.",
+            "duration": "30 seconds (3 rounds)",
+            "range": "10 foot radius",
+            "statbonus": {},
+            "skillbonus": {},
+            "abilities": {},
+            "hpbonus": 0,
+            "mpbonus": 0
+        },
+        "hobgoblinsmokecurtain": {
+            "name": "Hobgoblin Smoke Curtain",
+            "description": "Coats the area in dense white fog affecting physical entities.",
+            "itemtype": "Throwable",
+            "rarity": "Uncommon",
+            "effect": "Coats the area in dense white fog affecting physical entities.",
+            "duration": "90 seconds (9 rounds)",
+            "range": "60 feet radius",
+            "statbonus": {},
+            "skillbonus": {},
+            "abilities": {},
+            "hpbonus": 0,
+            "mpbonus": 0
+        },
+        "trollsmokemantel": {
+            "name": "Troll Smoke Mantel",
+            "description": "Creates a thick smoke curtain.",
+            "itemtype": "Throwable",
+            "rarity": "Epic",
+            "effect": "Creates a thick smoke curtain.",
+            "duration": "3 minutes (180 seconds)",
+            "range": "30 feet radius",
+            "statbonus": {},
+            "skillbonus": {},
+            "abilities": {},
+            "hpbonus": 0,
+            "mpbonus": 0
+        }
+    }
+}

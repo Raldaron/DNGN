@@ -1,0 +1,32 @@
+{
+    "traps": {
+        "snaretrap": {
+            "name": "Snare Trap",
+            "description": "Holds the target in place for fifteen seconds.",
+            "itemtype": "Trap",
+            "rarity": "Common",
+            "effect": "Holds the target in place for fifteen seconds.",
+            "duration": "15 seconds",
+            "range": "Touch",
+            "vitalbonus": {},
+            "skillbonus": {},
+            "abilities": {},
+            "hpbonus": 0,
+            "mpbonus": 0
+        },
+        "spiritbox": {
+            "name": "Spirit Box",
+            "description": "Roots the target in place for sixty seconds, lowers spirit resistance, summons a non-corporeal entity.",
+            "itemtype": "Trap",
+            "rarity": "Rare",
+            "effect": "Roots the target in place for sixty seconds, lowers spirit resistance, summons a non-corporeal entity.",
+            "duration": "60 seconds",
+            "range": "Touch",
+            "vitalbonus": {},
+            "skillbonus": {},
+            "abilities": {},
+            "hpbonus": 0,
+            "mpbonus": 0
+        }
+    }
+}

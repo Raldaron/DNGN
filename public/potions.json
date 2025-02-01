@@ -1,0 +1,318 @@
+{
+    "potions": {
+        "charmanimalpotion": {
+            "name": "Charm Animal Potion",
+            "description": "Tames a Dungeon animal for the duration of the Floor.",
+            "itemtype": "Potion",
+            "rarity": "Rare",
+            "effect": "Tames a Dungeon animal for the duration of the Floor.",
+            "duration": "Duration of the Floor",
+            "range": "N/A",
+            "statbonus": {},
+            "skillbonus": {},
+            "abilities": {},
+            "hpbonus": 0,
+            "mpbonus": 0
+        },
+        "doloresdoesn'tsplatpotion": {
+            "name": "Dolores Doesn't Splat Potion",
+            "description": "In a very early season of Dungeon Crawler World, a crocodilian alchemist crawler created the 'Dolores Doesn't Splat' potion while falling for ten minutes down a deep pit. Dolores combined two potions: one that imitates Katia Grim's Crowd Blast ability, and one that involved breeding of Rock Buffalo. To impregnate an in-heat rock buffalo, the male must penetrate her five times in rapid succession.",
+            "itemtype": "Potion",
+            "rarity": "Epic",
+            "effect": "Increased acceleration.\nYour body becomes invulnerable for a fraction of a moment, but you still feel pain.\nYour body temporarily softens the surface of impact, so you \"penetrate deeper than normal.\nYou slam into the ground, rise 15 ft (4.57m) into the air, and slam into the ground again. Five times.",
+            "duration": "Instantaneous",
+            "range": "N/A",
+            "statbonus": {},
+            "skillbonus": {},
+            "abilities": {},
+            "hpbonus": 0,
+            "mpbonus": 0
+        },
+        "potionoftemporalshift": {
+            "name": "Potion of Temporal Shift",
+            "description": "A shimmering liquid that seems to exist both in the present and slightly out of sync with time. When consumed, it allows the drinker to briefly step out of the normal flow of time.",
+            "itemtype": "Potion",
+            "rarity": "Epic",
+            "effect": "User becomes intangible and invisible for 10 seconds, can move but cannot interact with the world.",
+            "duration": "10 seconds",
+            "range": "Self",
+            "statbonus": {},
+            "skillbonus": {},
+            "abilities": {},
+            "hpbonus": 0,
+            "mpbonus": 0
+        },
+        "elixirofpolyglot": {
+            "name": "Elixir of Polyglot",
+            "description": "A swirling mixture of various colors, each representing a different language. The potion bubbles and hisses with the sounds of a thousand tongues.",
+            "itemtype": "Potion",
+            "rarity": "Rare",
+            "effect": "User can comprehend and communicate in all languages.",
+            "duration": "1 hour",
+            "range": "Self",
+            "statbonus": {},
+            "skillbonus": {},
+            "abilities": {},
+            "hpbonus": 0,
+            "mpbonus": 0
+        },
+        "brewofbeastlyfusion": {
+            "name": "Brew of Beastly Fusion",
+            "description": "A thick, murky liquid that constantly shifts and swirls, occasionally forming the shapes of various animals.",
+            "itemtype": "Potion",
+            "rarity": "Epic",
+            "effect": "User gains abilities of two random animals (e.g., flight of an eagle and strength of a bear). Roll 2d20 and refer to DM tables in potion effects tab.",
+            "duration": "30 minutes",
+            "range": "Self",
+            "statbonus": {},
+            "skillbonus": {},
+            "abilities": {},
+            "hpbonus": 0,
+            "mpbonus": 0
+        },
+        "potionofgravitymanipulation": {
+            "name": "Potion of Gravity Manipulation",
+            "description": "A light, effervescent liquid that seems to float within its container, defying the laws of gravity.",
+            "itemtype": "Potion",
+            "rarity": "Rare",
+            "effect": "User can walk on walls and ceilings.",
+            "duration": "5 minutes",
+            "range": "Self",
+            "statbonus": {},
+            "skillbonus": {},
+            "abilities": {},
+            "hpbonus": 0,
+            "mpbonus": 0
+        },
+        "draughtofelementalattunement": {
+            "name": "Draught of Elemental Attunement",
+            "description": "A potion that changes color and consistency based on the elemental force it attunes to: fiery red and smoking, watery blue and fluid, earthy brown and thick, or airy white and misty.",
+            "itemtype": "Potion",
+            "rarity": "Rare",
+            "effect": "Grants resistance to and control over one element (fire, water, earth, or air).",
+            "duration": "1 hour",
+            "range": "Self",
+            "statbonus": {},
+            "skillbonus": {},
+            "abilities": {},
+            "hpbonus": 0,
+            "mpbonus": 0
+        },
+        "essenceofphantomlimb": {
+            "name": "Essence of Phantom Limb",
+            "description": "A translucent potion that appears to have a ghostly arm reaching out from within the bottle.",
+            "itemtype": "Potion",
+            "rarity": "Epic",
+            "effect": "Manifests an additional ghostly arm that can reach through solid objects.",
+            "duration": "15 minutes",
+            "range": "Self",
+            "statbonus": {},
+            "skillbonus": {},
+            "abilities": {},
+            "hpbonus": 0,
+            "mpbonus": 0
+        },
+        "tonicoftechnoorganicintegration": {
+            "name": "Tonic of Techno-Organic Integration",
+            "description": "A metallic liquid that seems to pulse with electrical energy, occasionally forming circuit-like patterns on its surface.",
+            "itemtype": "Potion",
+            "rarity": "Epic",
+            "effect": "Enhances strength and agility, grants night vision and the ability to interface with machines.",
+            "duration": "1 hour",
+            "range": "Self",
+            "statbonus": {
+                "strength": 5,
+                "dexterity": 5
+            },
+            "skillbonus": {},
+            "abilities": {
+                "nightvision": true,
+                "machineinterface": true
+            },
+            "hpbonus": 0,
+            "mpbonus": 0
+        },
+        "potionofprobabilitymanipulation": {
+            "name": "Potion of Probability Manipulation",
+            "description": "A shimmering liquid that seems to change color and consistency randomly, defying all attempts to predict its appearance.",
+            "itemtype": "Potion",
+            "rarity": "Legendary",
+            "effect": "Significantly increases the likelihood of successful actions and favorable outcomes.",
+            "duration": "5 minutes",
+            "range": "Self",
+            "statbonus": {},
+            "skillbonus": {
+                "allskills": 10
+            },
+            "abilities": {},
+            "hpbonus": 0,
+            "mpbonus": 0
+        },
+        "elixirofmimicry": {
+            "name": "Elixir of Mimicry",
+            "description": "A clear liquid that reflects the image of whoever looks into it, constantly shifting and changing.",
+            "itemtype": "Potion",
+            "rarity": "Rare",
+            "effect": "User can shapeshift into the form of the last person they had physical contact with.",
+            "duration": "30 minutes",
+            "range": "Self",
+            "statbonus": {},
+            "skillbonus": {},
+            "abilities": {
+                "shapeshift": true
+            },
+            "hpbonus": 0,
+            "mpbonus": 0
+        },
+        "brewofdimensionalpocket": {
+            "name": "Brew of Dimensional Pocket",
+            "description": "A deep purple liquid that seems to contain an infinite void within its depths.",
+            "itemtype": "Potion",
+            "rarity": "Epic",
+            "effect": "Opens a portal to a 10x10x10 ft extradimensional space for storage or hiding.",
+            "duration": "24 hours",
+            "range": "Self",
+            "statbonus": {},
+            "skillbonus": {},
+            "abilities": {
+                "dimensionalstorage": true
+            },
+            "hpbonus": 0,
+            "mpbonus": 0
+        },
+        "healcritterpotion": {
+            "name": "Heal Critter Potion",
+            "description": "Heals injured pets, dungeon familiars, and animal-class mobs.",
+            "itemtype": "Potion",
+            "rarity": "Uncommon",
+            "effect": "Heals injured pets, dungeon familiars, and animal-class mobs.",
+            "duration": "Instantaneous",
+            "range": "N/A",
+            "statbonus": {},
+            "skillbonus": {},
+            "abilities": {},
+            "hpbonus": 0,
+            "mpbonus": 0
+        },
+        "majorcharlie": {
+            "name": "Major Charlie",
+            "description": "Raises intelligence by 10 points for 30 seconds then lowers intelligence by 10 points for 5 minutes.",
+            "itemtype": "Potion",
+            "rarity": "Uncommon",
+            "effect": "Raises intelligence by 10 points for 30 seconds then lowers intelligence by 10 points for 5 minutes.",
+            "duration": "30 seconds (boost), 5 minutes (debuff)",
+            "range": "N/A",
+            "statbonus": {
+                "intelligence": 10
+            },
+            "skillbonus": {},
+            "abilities": {},
+            "hpbonus": 0,
+            "mpbonus": 0
+        },
+        "potionofbloodlust": {
+            "name": "Potion of Bloodlust",
+            "description": "It\u2019s like giving yourself a PCP enema after spending the day riding the Night Train Express.\nDrinking this potion gives the following effects for (Stamina) seconds.\n\nStrength times two.\nMovement speed times two.\nDexterity times .5\nThe Where the Fuck Am I? Who the Fuck Are You? Debuff\nStamina times .5\nFor every crawler, NPC, or mob killed by you while this potion is active, your movement speed increases by an additional 25%.",
+            "itemtype": "Potion",
+            "rarity": "Rare",
+            "effect": "Doubles strength and movement speed, reduces dexterity and constitution, increases movement speed per kill.",
+            "duration": "(Constitution) seconds",
+            "range": "N/A",
+            "statbonus": {
+                "strength": "x2",
+                "dexterity": "x0.5",
+                "stamina": "x0.5"
+            },
+            "skillbonus": {},
+            "abilities": {},
+            "hpbonus": 0,
+            "mpbonus": 0
+        },
+        "potionofdinosaurrepellent": {
+            "name": "Potion of Dinosaur Repellent",
+            "description": "Repels dinosaurs for 30 hours.",
+            "itemtype": "Potion",
+            "rarity": "Epic",
+            "effect": "Repels dinosaurs for 30 hours.",
+            "duration": "30 hours",
+            "range": "N/A",
+            "statbonus": {},
+            "skillbonus": {},
+            "abilities": {},
+            "hpbonus": 0,
+            "mpbonus": 0
+        },
+        "potionofhalfsplat": {
+            "name": "Potion of Half Splat",
+            "description": "Prevents death from falling damage but leaves the user at 5% health.",
+            "itemtype": "Potion",
+            "rarity": "Epic",
+            "effect": "Prevents death from falling damage but leaves the user at 5% health.",
+            "duration": "Instantaneous",
+            "range": "N/A",
+            "statbonus": {},
+            "skillbonus": {},
+            "abilities": {},
+            "hpbonus": 0,
+            "mpbonus": 0
+        },
+        "potionofinvisibility": {
+            "name": "Potion of Invisibility",
+            "description": "Turns the drinker invisible for 2 * intelligence seconds.",
+            "itemtype": "Potion",
+            "rarity": "Rare",
+            "effect": "Turns the drinker invisible for 2 * intelligence seconds.",
+            "duration": "2 * Intelligence seconds",
+            "range": "N/A",
+            "statbonus": {},
+            "skillbonus": {},
+            "abilities": {},
+            "hpbonus": 0,
+            "mpbonus": 0
+        },
+        "potionofphasethroughwall": {
+            "name": "Potion of Phase Through Wall",
+            "description": "Allows the drinker to phase through wood, stone, or metal walls.",
+            "itemtype": "Potion",
+            "rarity": "Rare",
+            "effect": "Allows the drinker to phase through wood, stone, or metal walls.",
+            "duration": "10 seconds",
+            "range": "N/A",
+            "statbonus": {},
+            "skillbonus": {},
+            "abilities": {},
+            "hpbonus": 0,
+            "mpbonus": 0
+        },
+        "rev-uptoilet-grademoonshine": {
+            "name": "Rev-Up Toilet-Grade Moonshine",
+            "description": "Highly flammable liquid, explosive fumes, various effects upon consumption.",
+            "itemtype": "Potion",
+            "rarity": "Uncommon",
+            "effect": "Highly flammable liquid, explosive fumes, various effects upon consumption.",
+            "duration": "Varies (see description)",
+            "range": "N/A",
+            "statbonus": {
+                "random": 2
+            },
+            "skillbonus": {},
+            "abilities": {},
+            "hpbonus": 0,
+            "mpbonus": 0
+        },
+        "size-uppotion": {
+            "name": "Size-Up Potion",
+            "description": "Provides detailed information about mobs including their stats and skills.",
+            "itemtype": "Potion",
+            "rarity": "Rare",
+            "effect": "Provides detailed information about mobs including their stats and skills.",
+            "duration": "10 minutes",
+            "range": "N/A",
+            "statbonus": {},
+            "skillbonus": {},
+            "abilities": {},
+            "hpbonus": 0,
+            "mpbonus": 0
+        }
+    }
+}
